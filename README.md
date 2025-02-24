@@ -7,6 +7,7 @@ An AI-driven full-stack itinerary planner that uses Google Maps API to fetch loc
 - Uses LLM to generate customized travel itineraries
 - Full-stack implementation with FastAPI (backend) and Svelte (frontend)
 - Interactive and dynamic user experience
+- Integrated chatbot for travel consultation using LLM
 
 ## Installation
 
@@ -53,13 +54,3 @@ npm run dev
 2. The app will fetch places using Google Maps API.
 3. The LLM will generate a detailed itinerary.
 4. View, edit, or refine the itinerary as needed.
-
-## Preview
-(Add your preview video or images here)
-
-## Contributing
-Feel free to contribute by submitting pull requests or reporting issues.
-
-## License
-This project is licensed under the MIT License.
-
