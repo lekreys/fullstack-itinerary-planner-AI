@@ -5,7 +5,7 @@ An AI-driven full-stack itinerary planner that uses Google Maps API to fetch loc
 
 
 ## Preview
-(Add your preview video or images here)
+https://github.com/user-attachments/assets/5c8e30b4-9a96-4c0d-a30d-a693cf32834c
 
 ## Features
 - Fetches places data from Google Maps API
