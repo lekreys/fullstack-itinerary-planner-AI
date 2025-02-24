@@ -2,6 +2,11 @@
 
 An AI-driven full-stack itinerary planner that uses Google Maps API to fetch location data and LLM (Large Language Model) to generate optimized travel itineraries based on user preferences.
 
+
+
+## Preview
+(Add your preview video or images here)
+
 ## Features
 - Fetches places data from Google Maps API
 - Uses LLM to generate customized travel itineraries
