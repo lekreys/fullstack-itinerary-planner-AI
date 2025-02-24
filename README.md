@@ -1,0 +1,65 @@
+# AI-Powered Itinerary Planner
+
+An AI-driven full-stack itinerary planner that uses Google Maps API to fetch location data and LLM (Large Language Model) to generate optimized travel itineraries based on user preferences.
+
+## Features
+- Fetches places data from Google Maps API
+- Uses LLM to generate customized travel itineraries
+- Full-stack implementation with FastAPI (backend) and Svelte (frontend)
+- Interactive and dynamic user experience
+
+## Installation
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/lekreys/fullstack-itinerary-planner-AI.git
+cd fullstack-itinerary-planner-AI
+```
+
+### 2. Set Up Environment Variables
+Create a `.env` file in the root directory and add the following:
+```sh
+API_KEY=your_google_api_key
+API_KEY_OPENAI=your_openai_api_key
+```
+
+## Backend Setup (FastAPI)
+
+### 1. Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+### 2. Run the FastAPI Server
+```sh
+uvicorn main:app --reload
+```
+
+## Frontend Setup (Svelte)
+
+### 1. Install Dependencies
+```sh
+cd frontend
+npm install
+```
+
+### 2. Run the Development Server
+```sh
+npm run dev
+```
+
+## Usage
+1. Enter your travel destination and duration.
+2. The app will fetch places using Google Maps API.
+3. The LLM will generate a detailed itinerary.
+4. View, edit, or refine the itinerary as needed.
+
+## Preview
+(Add your preview video or images here)
+
+## Contributing
+Feel free to contribute by submitting pull requests or reporting issues.
+
+## License
+This project is licensed under the MIT License.
+
